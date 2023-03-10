@@ -1,5 +1,5 @@
 Function Push {
-    Set-Location C:\Users\moriz\Desktop\netpage # 切换到你要推送的仓库地址
+    Set-Location D:\ZZZZ\webdomain # 切换到你要推送的仓库地址
     $now = Get-Date # 获取时间日期对象. 对!PowerShell是面向对象的
     $msg = "==> " + $now.ToString('yyyy-MM-dd HH:mm:ss') + " release <=="# 提交的消息
     Write-Output $msg >> .\gitpush.log # 输出到 日志文件gitpush.log
